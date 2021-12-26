@@ -4,7 +4,7 @@ COPY src/ /var/www/html
 
 RUN apt-get update && apt-get upgrade -y --allow-unauthenticated
 
-RUN docker-php-ext-install mysqli
+#RUN docker-php-ext-install mysqli	
 
 ARG port=80
 
