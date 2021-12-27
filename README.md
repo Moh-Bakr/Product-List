@@ -21,7 +21,7 @@ docker pull shebl/product-list
 #### Then run it using the following command
 
 ```
-sudo docker run -p 5001:80 product-list
+docker run -p 5001:80 shebl/product-list
 ```
 
 #### Then open the url
